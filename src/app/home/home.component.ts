@@ -4,6 +4,7 @@ import { CounterComponent } from '../components/counter/counter.component';
 
 @Component({
   selector: 'app-home',
+   standalone: true, 
   imports: [GreetingComponent, CounterComponent],  // Add GreetingComponent here
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
